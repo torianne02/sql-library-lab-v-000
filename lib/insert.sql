@@ -25,3 +25,20 @@ INSERT INTO books (title, year, series_id)
   VALUES ("The Seeing Stone", 2003, 2);
 INSERT INTO books (title, year, series_id)
   VALUES ("Lucinda's Secret", 2003, 2);
+
+INSERT INTO characters (name, motto, species, author_id, series_id)
+  VALUES ("Bella", "I love you, Edward.", "Human", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id)
+  VALUES ("Edward", "You should stay away.", "Vampire", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id)
+  VALUES ("James", "I love the hunt.", "Vampire", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id)
+  VALUES ("Riley", "We will kill the Cullen's.", "Vampire", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id)
+  VALUES ("Simon", "I love you, Edward.", "Human", 2, 2);
+INSERT INTO characters (name, motto, species, author_id, series_id)
+  VALUES ("Jared", "You should stay away.", "Human", 2, 2);
+INSERT INTO characters (name, motto, species, author_id, series_id)
+  VALUES ("Hogsqueal", "I must destroy the ogre who killed my family.", "Hobgoblin", 2, 2);
+INSERT INTO characters (name, motto, species, author_id, series_id)
+  VALUES ("Thimbletack", "Yummy yummy yummy.", "Faerie", 2, 2);
