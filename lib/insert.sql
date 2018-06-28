@@ -25,5 +25,3 @@ INSERT INTO books (title, year, series_id)
   VALUES ("The Seeing Stone", 2003, 2);
 INSERT INTO books (title, year, series_id)
   VALUES ("Lucinda's Secret", 2003, 2);
-
-
