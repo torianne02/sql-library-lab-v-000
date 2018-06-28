@@ -30,7 +30,7 @@ def select_series_title_with_most_human_characters
   FROM series AS s
   LEFT JOIN characters AS c ON c.series_id = s.id
   GROUP BY s.title
-  HAVING c.species = 'human';"
+  HAVING c.species = 'Human';"
 end
 
 def select_character_names_and_number_of_books_they_are_in
