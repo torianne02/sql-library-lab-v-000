@@ -7,9 +7,9 @@ def select_books_titles_and_years_in_first_series_order_by_year
 end
 
 def select_name_and_motto_of_char_with_longest_motto
-  "SELECT c.name, c.motto
+  "SELECT c.name, LEN(c.motto) AS motto_length
   FROM characters AS c
-  ORDER BY c.motto_length DESC
+  ORDER BY motto_length DESC
   LIMIT 1;"
 end
 
