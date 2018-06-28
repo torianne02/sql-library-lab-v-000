@@ -18,7 +18,7 @@ def select_value_and_count_of_most_prolific_species
   "SELECT c.species, COUNT(*)
   FROM characters AS c
   GROUP BY c.species
-  ORDERY BY COUNT(c.species) DESC
+  ORDER BY COUNT(c.species) DESC
   LIMIT 1;"
 end
 
